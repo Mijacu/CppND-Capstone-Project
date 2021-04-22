@@ -12,7 +12,7 @@ In this project, you can build your own C++ application starting with this repo,
     ```sh
     sudo apt install cmake libopenblas-dev liblapack-dev
     ```
-    * Download the stable version of Armadillo. [stable-version](http://arma.sourceforge.net/download.html)
+    * Download the stable version of Armadillo [stable-version](http://arma.sourceforge.net/download.html)
     and install it: 
     ```sh
     cd Downloads/
