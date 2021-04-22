@@ -15,5 +15,5 @@ include_directories(${ARMADILLO_INCLUDE_DIRS})
 file(GLOB project_SRCS src/*.cpp) #src/*.h
 
 # Add project executable
-add_executable(capstone_project ${project_SRCS})
-target_link_libraries(capstone_project ${ARMADILLO_LIBRARIES})
+add_executable(CapstoneProject ${project_SRCS})
+target_link_libraries(CapstoneProject ${ARMADILLO_LIBRARIES})
