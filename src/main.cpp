@@ -1,6 +1,7 @@
 #include <iostream>
+#include "Coordinates.h"
 
 int main() {
-    std::cout << "Hello World!" << "\n";
-    return 0;
+    Coordinates coord(1.0, 2.0, 4.0);
+    coord.print("coord: ");
 }
