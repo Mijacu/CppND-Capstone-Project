@@ -23,7 +23,7 @@ Position::Position(double x, double y, double z) {
 }
 
 arma::mat Position::getPositionMatrix() {
-    return coordinates_;
+    return position_;
 }
     
 void Position::setPositionMatrix(arma::mat position) {
