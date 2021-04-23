@@ -1,4 +1,4 @@
-# CPPND: Capstone Project Repo
+# CPPND: Capstone Project Repository
 
 <img src="images/robotic_arm.png"/>
 
