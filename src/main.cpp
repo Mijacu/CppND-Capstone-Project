@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Coordinates.h"
+#include "Position.h"
 
 int main() {
-    Coordinates coord(1.0, 2.0, 4.0);
-    coord.print("coord: ");
+    Position position(1.0, 2.0, 4.0);
+    position.print("position: ");
 }

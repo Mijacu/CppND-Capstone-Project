@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/workspace/CppND-Capstone-Project/src/Conversions.h
+
+/home/workspace/CppND-Capstone-Project/src/ForwardKinematics.h
+armadillo
+-
+vector
+-
+
+/home/workspace/CppND-Capstone-Project/src/InverseKinematics.h
+armadillo
+-
+vector
+-
+
+/home/workspace/CppND-Capstone-Project/src/RoboticArm.cpp
+RoboticArm.h
+/home/workspace/CppND-Capstone-Project/src/RoboticArm.h
+
+/home/workspace/CppND-Capstone-Project/src/RoboticArm.h
+armadillo
+-
+math.h
+-
+vector
+-
+Conversions.h
+/home/workspace/CppND-Capstone-Project/src/Conversions.h
+InverseKinematics.h
+/home/workspace/CppND-Capstone-Project/src/InverseKinematics.h
+ForwardKinematics.h
+/home/workspace/CppND-Capstone-Project/src/ForwardKinematics.h
+
