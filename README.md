@@ -1,10 +1,16 @@
 # CPPND: Capstone Hello World Repo
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
+<img src="images/robotic_arm.png"/>
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+This is a repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
 
-In this project, you can build your own C++ application starting with this repo, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+This project builds the representation of a 2 deegres of freedom (DOF) robotic arm with capabilities to compute forward and inverse kinematics.
+
+Specifications:
+* Angle 0: Rotational DOF that joins the first link with the base.
+* Angle 1: Rotation DOF that joins the first and second link.
+* Link 1: A 15 cm rigid body.
+* Link 2: A 5 cm rigid body.
 
 ## Dependencies for Running Locally
 * Run the install dependencies script: 
