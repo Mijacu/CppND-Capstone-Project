@@ -7,6 +7,13 @@ The Capstone Project gives you a chance to integrate what you've learned through
 In this project, you can build your own C++ application starting with this repo, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
 ## Dependencies for Running Locally
+* Run the install dependencies script: 
+    ```sh
+    chmod +x install_dependencies.sh
+    ./install_dependencies.sh
+    ```
+or
+
 * Install Armadillo 
     * Install Armadillo dependencies
     ```sh
@@ -21,6 +28,7 @@ In this project, you can build your own C++ application starting with this repo,
     make
     sudo make install
     ```
+
 
 ## Basic Build Instructions
 
