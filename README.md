@@ -1,8 +1,8 @@
-# CPPND: Capstone Hello World Repo
+# CPPND: Capstone Project Repo
 
 <img src="images/robotic_arm.png"/>
 
-This is a repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
+Repository for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
 
 This project builds the representation of a 2 deegres of freedom (DOF) robotic arm with capabilities to compute forward and inverse kinematics.
 
