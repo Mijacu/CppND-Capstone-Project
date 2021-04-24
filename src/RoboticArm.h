@@ -12,6 +12,7 @@
 class RoboticArm : public ForwardKinematics, public InverseKinematics {
 public:
     RoboticArm() = delete;
+    ~RoboticArm() = default;
     RoboticArm(std::vector<double>& links) : links_(links), angles_{0.0, 0.0} {};
     RoboticArm(const RoboticArm&) = delete;
     RoboticArm& operator=(const RoboticArm&) = delete;

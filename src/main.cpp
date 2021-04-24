@@ -3,6 +3,7 @@
 
 #include "Position.h"
 #include "RoboticArm.h"
+#include "CircularTrajectory.h"
 
 int main() {
     std::vector<double> links {10.0, 5.0};
@@ -22,4 +23,7 @@ int main() {
     desired_position[1] = 0.0;
     robotic_arm.computeAngles(desired_position);
     robotic_arm.printAngles();
+
+    CircularTrajectory circular_trajectory();
+    std::vector<std::vector<double>> trajectory = circular_trajectory.generateTrajectory();
 }
