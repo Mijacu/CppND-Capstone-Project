@@ -24,6 +24,12 @@ int main() {
     robotic_arm.computeAngles(desired_position);
     robotic_arm.printAngles();
 
-    CircularTrajectory circular_trajectory();
+    CircularTrajectory circular_trajectory;
     std::vector<std::vector<double>> trajectory = circular_trajectory.generateTrajectory();
+    for (std::vector<double> position : trajectory) {
+        robotic_arm.computeAngles(position);
+        robotic_arm.printAngles();
+    }
+    
+    return 0;
 }
