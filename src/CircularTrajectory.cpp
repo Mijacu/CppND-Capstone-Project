@@ -1,12 +1,15 @@
 #include "CircularTrajectory.h"
 
 std::vector<std::vector<double>> CircularTrajectory::generateTrajectory() {
-    double x, y, magnitude;
+    double x, y;
+    double magnitude = 12.5;
     trajectory_.clear();
-    for(int theta = 0; theta < PI; theta += PI / total_positions_) {
+    for(double theta = 0; theta < PI; theta += PI / total_positions_) {
+        std::cout << theta <<std::endl;
         x = magnitude * cos(theta);
         y = magnitude * sin(theta);
-        trajectory_.push_back(std::vector<double> {x, y})
+        std::cout << "x= " << x << " y= " << y << std::endl;
+        trajectory_.push_back(std::vector<double> {x, y});
     }
     return trajectory_;
 }

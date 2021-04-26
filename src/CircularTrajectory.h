@@ -1,6 +1,7 @@
 #ifndef CIRCULAR_TRAJECTORY_H_
 #define CIRCULAR_TRAJECTORY_H_
 
+#include <iostream>
 #include <math.h>
 #include <vector>
 
@@ -12,8 +13,8 @@
 
 class CircularTrajectory : public Trajectory {
 public:
-    CircularTrajectory() = default;       
-    ~CircularTrajectory() = default;
+    CircularTrajectory() {}; 
+    ~CircularTrajectory() {};      
     std::vector<std::vector<double>> generateTrajectory() override;
 };
 
