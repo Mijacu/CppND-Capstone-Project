@@ -1,3 +1,0 @@
-/home/workspace/CppND-Capstone-Project/build/CMakeFiles/rebuild_cache.dir
-/home/workspace/CppND-Capstone-Project/build/CMakeFiles/CapstoneProject.dir
-/home/workspace/CppND-Capstone-Project/build/CMakeFiles/edit_cache.dir
