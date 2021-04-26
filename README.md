@@ -20,17 +20,17 @@ Specifications:
     ```
 or
 
-* Install Armadillo 
-* Windows installation
+### Install Armadillo 
+* Windows installation:
     [instructions to install Armadillo on Windows](https://solarianprogrammer.com/2017/03/24/getting-started-armadillo-cpp-linear-algebra-windows-mac-linux/)
-* Mac installation
+* Mac installation:
     ```sh
     xcode-select --install
     brew tap homebrew/science
     brew info armadillo
     ```
 
-* Linux installation
+* Linux installation:
     * Install Armadillo dependencies
     ```sh
     sudo apt install cmake libopenblas-dev liblapack-dev
@@ -52,18 +52,18 @@ or
 3. Compile: `cmake .. && make`
 4. Run it: `./CapstoneProject`.
 
-## Source code structure
+## Source Code Structure
 * main.cpp: Contains code to generate a trajectory and compute angles to traverse that trajectory using a 2 DOF robotic arm.
-* CirculateTrajectory.h/cpp: Generates positions for a circular trajectory with fixed radius of 12.5 cm.
+* CirculateTrajectory.h/cpp: Generates positions for a circular trajectory with a fixed radius of 12.5 cm.
 * Trajectory.h/cpp: Interface to generate a trajectory.
 * RoboticArm.h/cpp: Implements forward and inverse kinematics for a 2 DOF robotic arm.
-* Forward/InverseKinematics.h/cpp: Interfaces used to implement kinematics capabilities.
+* Forward/InverseKinematics.h/cpp: Interfaces used to implement kinematics.
 * Position.h/cpp: Class that holds a mat object with position data.
 * Conversions.h/cpp: Converts angles in grades to radians, and vice versa.
 
-## Rubric points addressed
+## Rubric Points Addressed
 * The project demonstrates an understanding of C++ functions and control structures
-* The porject uses Object Oriented Programming techniques
+* The project uses Object Oriented Programming techniques
 * Classes use appropriate access specifiers for class members
 * Class constructors utilize member initialization lists: e.g. RoboticArm.h/cpp 
 * Classes use abstract implementation details from their interfaces: e.g. RoboticArm.h/cpp, CircularTrajectory.h/cpp
